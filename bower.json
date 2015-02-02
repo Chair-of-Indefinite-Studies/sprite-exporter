@@ -1,9 +1,9 @@
 {
-  "name": "cois-sprite-editor",
+  "name": "cois-sprite-exporter",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A means to store a sprite created with the sprite-editor",
-  "main": "cois-sprite-editor.js",
+  "main": "cois-sprite-exporter.js",
   "ignore": [
     "**/.*",
     "node_modules",

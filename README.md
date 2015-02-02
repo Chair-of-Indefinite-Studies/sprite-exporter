@@ -12,7 +12,7 @@ We will store sprites as a [JSON][json] file with the following format
 {
   "columns": 15,
   "rows": "10",
-  "pallete": ['rgba(0,0,0,1)', 'rgba(255,0,0,1)'],
+  "pallete": ["rgba(0,0,0,1)", "rgba(255,0,0,1)"],
   "pixels": [
     [[0, 0], [1, 0], [2, 0]],
     [[12, 9], [13, 9], [14, 9]]

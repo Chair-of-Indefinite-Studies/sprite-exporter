@@ -1,0 +1,20 @@
+{
+  "name": "cois-sprite-editor",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A means to store a sprite created with the sprite-editor",
+  "main": "cois-sprite-editor.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "SpecRunner.html",
+    "spec",
+    "package.json",
+    "gulpFile.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "~2.1.3"
+  }
+}

@@ -1,4 +1,4 @@
-cois-sprite-editor
+cois-sprite-exporter
 ===========
 
 A means to store a sprite created with the sprite-editor
@@ -11,7 +11,7 @@ We will store sprites as a [JSON][json] file with the following format
 ```json
 {
   "columns": 15,
-  "rows": "10",
+  "rows": 10,
   "palette": ["rgba(0,0,0,1)", "rgba(255,0,0,1)"],
   "pixels": [
     [[0, 0], [1, 0], [2, 0]],

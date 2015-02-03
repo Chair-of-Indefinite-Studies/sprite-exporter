@@ -7,4 +7,16 @@
 
 	canvas.addEventListener('mousedown', controller.startDrawing.bind(controller));
 	canvas.addEventListener('mouseup', controller.stopDrawing.bind(controller));
+
+    var exporter = new sprite.Exporter();
+
+    var link = document.getElementById('download')
+    link.download = 'image.json';
+    function updateHref(){
+        link.href = window.URL.createObjectURL(new Blob([
+            JSON.stringify(exporter.export(model))
+        ], { 'type': 'application/json' }));
+    }
+    updateHref();
+    model.on('paint', updateHref);
 })(sprite);
